@@ -78,12 +78,35 @@ We are going to create this code to show, help and Learn and experiment
 ***
 
 Small description step by step that tells how to run and develop the aplication 
+Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
 ```
  npm install
  npm i express
  npm init
+ npm start
 ``` 
+## Running Locally
+
+Your app should now be running on [localhost:3000](http://localhost:3000/).
+
+## Deploying to Heroku
+
+```
+sudo snap install heroku --classic
+heroku login
+git clone https://github.com/heroku/node-js-getting-started.git
+cd node-js-getting-started
+git remote -v
+heroku create
+git push heroku main
+heroku open
+heroku ps:scale web=1
+```
+You can fine more 
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 
 
 
