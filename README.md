@@ -28,7 +28,9 @@ and can visualize in [Github pages](https://rakeru2006.github.io/express_heroku/
   ***
   General information about this project.
 
-  This aplication help to learn 
+  This application that can be used to write, save, and delete notes. 
+  This application use an express backend and save and retrieve note data from a JSON file.
+
   
 ## License :cop: :guardsman: 
 :key:
@@ -77,11 +79,14 @@ We are going to create this code to show, help and Learn and experiment
 
 Small description step by step that tells how to run and develop the aplication 
 
-```lorem ipsum``` 
+```
+ npm install
+ npm i express
+ npm init
+``` 
 
 
 
-Step one 
 
 
 ## Tests 
