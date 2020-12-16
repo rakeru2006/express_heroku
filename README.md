@@ -6,7 +6,7 @@
 
 Created by Raquel Ceron
 
-This project  run in this github repository [Github](https://github.com/rakeru2006/html-node)
+This project  run in this github repository [Github](https://github.com/rakeru2006/express_heroku)
 and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
 
 
@@ -93,7 +93,7 @@ Demo aplication
 Demo running
 
 ![demo1](https://github.com/rakeru2006/html-node/blob/master/tesnodeindexjs.png)
-![demo2](https://github.com/rakeru2006/html-node/blob/master/animation.gif)
+
 
 
 ## Contributing  
