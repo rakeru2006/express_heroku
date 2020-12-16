@@ -7,7 +7,7 @@
 Created by Raquel Ceron
 
 This project  run in this github repository [Github](https://github.com/rakeru2006/express_heroku)
-and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
+and can visualize in [Github pages](https://rakeru2006.github.io/express_heroku/.)
 
 
 ## Table of Contents :pushpin:
