@@ -13,5 +13,9 @@
   },
   "author": "RC",
   "license": "ISC",
-  "homepage": ""
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
 }
