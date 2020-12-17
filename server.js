@@ -6,21 +6,21 @@ const fs = require("fs");
 
 // Sets up the Express App
 // =============================================================
-var app = express();
+var application = express();
 var PORT = process.env.PORT || 3000
 
 // Sets up the Express app to handle data parsing
 // =============================================================
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-app.use("/assets", express.static("./assets"));
+application.use(express.urlencoded({ extended: true }));
+application.use(express.json());
+application.use("/assets", express.static("./assets"));
 
 
-require("./routing/html-routes")(app);
-require("./routing/api-routes")(app);
+require("./routing/html-routes")(application);
+require("./routing/api-routes")(application);
 
 // Starts the server to begin listening
 // =============================================================
-app.listen(PORT, function() {
+application.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
 });
