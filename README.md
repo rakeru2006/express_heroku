@@ -1,5 +1,5 @@
 
-# :sparkles: Project Title  Project Express Note   :sparkles:
+# :sparkles: Project Title  Project Express and Heroku   :sparkles:
 ================
 ## Author :bowtie:
 ***
@@ -95,7 +95,7 @@ Your app should now be running on [localhost:3000](http://localhost:3000/).
 ```
 sudo snap install heroku --classic
 heroku login
-git clone https://github.com/heroku/node-js-getting-started.git
+git clone git@github.com:rakeru2006/express_heroku.git
 git remote -v
 heroku create
 git push heroku main
@@ -103,7 +103,7 @@ heroku open
 ```
 You can fine the app runing in Heroku 
 
-[![Deploy to Heroku](https://shrouded-lake-16170.herokuapp.com/)](https://shrouded-lake-16170.herokuapp.com/)
+[![Deploy App in Heroku](https://shrouded-lake-16170.herokuapp.com/)](https://shrouded-lake-16170.herokuapp.com/)
 
 
 
