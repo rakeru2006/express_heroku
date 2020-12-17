@@ -20,7 +20,7 @@ and can visualize in [Github pages](https://rakeru2006.github.io/express_heroku/
   - [Tests](#Tests)
   - [Questions FAQs](#Questions-faqs)
 
- -- [Description](#Description)
+ -
 
 
 ## Description  
@@ -84,7 +84,7 @@ Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cl
  npm install
  npm i express
  npm init
- npm start
+ node server.js
 ``` 
 ## Running Locally
 
