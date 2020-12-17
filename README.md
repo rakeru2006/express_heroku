@@ -96,14 +96,12 @@ Your app should now be running on [localhost:3000](http://localhost:3000/).
 sudo snap install heroku --classic
 heroku login
 git clone https://github.com/heroku/node-js-getting-started.git
-cd node-js-getting-started
 git remote -v
 heroku create
 git push heroku main
 heroku open
-heroku ps:scale web=1
 ```
-You can fine the app runing in herocu 
+You can fine the app runing in Heroku 
 
 [![Deploy to Heroku](https://shrouded-lake-16170.herokuapp.com/)](https://shrouded-lake-16170.herokuapp.com/)
 
@@ -120,7 +118,7 @@ Demo aplication
 
 Demo running
 
-![demo1](https://github.com/rakeru2006/note.png)
+![demo](https://github.com/rakeru2006/express_heroku/blob/main/note.png)
 
 
 
@@ -135,8 +133,7 @@ You can participate with this project with one of the followin examples:
 :question:
 ***
 
-For questions contact Project New
-rakeru2006@gmail.com
+For questions contact 
 
 
 
